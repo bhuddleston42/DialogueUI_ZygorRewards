@@ -1,0 +1,9 @@
+## Interface: 120100, 120105
+## Title: Dialogue UI - Zygor Rewards
+## Notes: Marks Zygor's recommended quest reward in Dialogue UI.
+## Author: Baraius
+## Category-enUS: User Interface
+## Version: 0.1.0-beta.1
+## Dependencies: DialogueUI, ZygorGuidesViewer
+
+Bridge.lua

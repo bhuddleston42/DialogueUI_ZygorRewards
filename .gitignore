@@ -1,0 +1,5 @@
+.release/
+*.luac
+*.zip
+.DS_Store
+Thumbs.db
