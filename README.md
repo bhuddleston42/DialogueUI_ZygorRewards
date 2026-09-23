@@ -4,6 +4,9 @@ Version: **0.1.0-beta.1** | World of Warcraft Retail
 
 See Zygor's recommended quest reward without leaving Dialogue UI.
 
+[CurseForge](https://www.curseforge.com/wow/addons/dialogue-ui-zygor-rewards)
+| [GitHub releases](https://github.com/bhuddleston42/DialogueUI_ZygorRewards/releases)
+
 Requires Dialogue UI and Zygor Guides Viewer. Enable Zygor's quest reward
 suggestions. Zygor's silver gear-and-Z emblem marks the upper-right corner of
 its recommended reward. Dialogue UI's own upgrade and vendor icons remain
@@ -69,6 +72,9 @@ GitHub Actions validates Lua and TOC metadata on pushes and pull requests.
 Pushes to `main` produce preview ZIP artifacts. A `v` tag matching the TOC
 version publishes a packaged GitHub release after validation. The first beta
 tag is `v0.1.0-beta.1`. Tests and development metadata are excluded from packages.
+CurseForge project 1708099 is linked to the same repository with packaging of
+tagged commits enabled. The first beta was uploaded directly; new-project and
+file moderation are handled by CurseForge.
 
 ## License
 
