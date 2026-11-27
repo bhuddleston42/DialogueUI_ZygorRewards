@@ -14,7 +14,7 @@ for line in toc.read_text(encoding="utf-8-sig").splitlines():
     elif line and not line.startswith("#"):
         path = root / line.replace("\\\\", "/").replace("\\", "/")
         assert path.is_file(), f"Missing TOC dependency: {line}"
-assert metadata["Interface"] == "120100, 120105", "Expected supported Retail interfaces"
+assert metadata["Interface"] == "120105", "Expected supported Retail interfaces"
 assert metadata["Dependencies"] == "DialogueUI, ZygorGuidesViewer", "Both addons are required"
 if os.environ.get("GITHUB_REF_TYPE") == "tag":
     assert os.environ["GITHUB_REF_NAME"] == "v" + metadata["Version"], "Tag must match TOC version"

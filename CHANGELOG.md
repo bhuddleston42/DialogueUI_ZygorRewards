@@ -1,3 +1,7 @@
+# 0.1.0
+
+Update Retail compatibility metadata for Midnight 12.1.5 (interface 120105).
+
 # Changelog
 
 ## 0.1.0-beta.1 — 2026-09-21

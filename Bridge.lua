@@ -14,7 +14,7 @@ local function Fail(message)
 end
 SLASH_DUIZYGOR1 = "/duizygor"
 SlashCmdList.DUIZYGOR = function()
-    Report("0.1.0-beta.1 — " .. status)
+    Report("0.1.0 — " .. status)
     for _, name in ipairs({"DialogueUI", "ZygorGuidesViewer"}) do
         Report(name .. ": " .. tostring(C_AddOns.GetAddOnMetadata(name, "Version") or "unknown"))
     end

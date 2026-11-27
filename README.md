@@ -1,6 +1,6 @@
 # Dialogue UI - Zygor Rewards
 
-Version: **0.1.0-beta.1** | World of Warcraft Retail
+Version: **0.1.0** | World of Warcraft Retail
 
 See Zygor's recommended quest reward without leaving Dialogue UI.
 
@@ -45,10 +45,10 @@ For a bug report include `/duizygor` output, WoW version, quest name/ID, your
 class/spec, and a screenshot of the reward choices. Mention Dialogue UI theme,
 UI size, and whether you use a controller. Do not upload your WTF folder.
 
-## Beta compatibility
+## Compatibility
 
 Built against the installed Dialogue UI 1.0.5 and Zygor 9.6 metadata, for Retail
-interface versions 120100/120105. Classic is not supported by this package.
+interface versions 120105. Classic is not supported by this package.
 The recommendation and silver emblem have been confirmed working in-game by
 the author. Broader theme/size and controller coverage has not been verified.
 The added diagnostics and error handling have automated coverage.
@@ -71,7 +71,7 @@ From the addon directory, run `lua tests/regression.lua`,
 GitHub Actions validates Lua and TOC metadata on pushes and pull requests.
 Pushes to `main` produce preview ZIP artifacts. A `v` tag matching the TOC
 version publishes a packaged GitHub release after validation. The first beta
-tag is `v0.1.0-beta.1`. Tests and development metadata are excluded from packages.
+tag is `v0.1.0`. Tests and development metadata are excluded from packages.
 CurseForge project 1708099 is linked to the same repository with packaging of
 tagged commits enabled. The first beta was uploaded directly; new-project and
 file moderation are handled by CurseForge.
